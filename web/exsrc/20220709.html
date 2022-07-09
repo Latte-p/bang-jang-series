@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./hello.js"></script>
+</head>
+
+<body>
+  <form>
+    텍스트 입력 <input type="text" name = "search">
+    <br><br>
+    비밀번호 입력 <input type="password" name = "search">
+  </form>
+  <br><br>
+  <form>
+    <input type="radio" name = "radio_group" value = "jerry" checked>제리
+    <br>
+    <input type="radio" name = "radio_group" value = "kaisa">카이사      
+  </form>
+  <br>
+  <form>
+    <input type="checkbox" name = "lolchamp" value = "jerry" checked>제리
+    <br>
+    <input type="checkbox" name = "lochamp" value = "kaisa" disabled>카이사      
+  </form>
+  <br>
+  <form>
+    <select name = "fruit">
+      <option value="apple"> 사과
+      <option value="orange" selected> 귤
+      <option value="strawberry"> 딸기
+      <option value="peach"> 복숭아
+    </select>
+  </form>
+  <br>
+  <input type = "button" value = "type 버튼">
+  <br>
+  <button>버튼 태그 버튼</button>
+  <br>
+  <textarea name="message" rows="5" cols="30">
+    여기에 적으세요.
+  </textarea>
+  <br>
+  <form action="전송할 주소">
+    form 테스트 : <br>
+    <input type="text" name="nickname" value="별명"><br><br>
+    <input type="submit" value="전송">
+  </form> 
+  <br>
+  <form action="전송할 주소">
+    <fieldset>
+        <legend>입력 양식</legend>
+        이름 : <br>
+        <input type="text" name="username"><br>
+        이메일 : <br>
+        <input type="text" name="email"><br><br>
+        <input type="submit" value="전송">
+    </fieldset>
+  </form> 
+  <button onclick="soon();">클릭 테스트</button>
+</body>
+</html>
